@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<style>
+	
 		.item {
   padding: 12px;
   background: #1e90ff;
@@ -94,6 +95,30 @@
   width: 100%;
 }
 </style>
+.downloads {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 por fila */
+  gap: 15px; /* espacio entre botones */
+  max-width: 600px;
+  margin: 40px auto; /* centra el bloque */
+}
+
+.item {
+  padding: 12px;
+  background: #1e90ff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item:hover {
+  background: #0f6cd1; /* cambio de color al pasar el mouse */
+}
 
 </head>
 <body>
@@ -123,6 +148,7 @@
 
 </body>
 </html>
+
 
 
 
